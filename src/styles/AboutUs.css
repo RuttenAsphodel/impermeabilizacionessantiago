@@ -1,0 +1,19 @@
+/* AboutUs.css */
+
+.about-us {
+    background-color: #ffffff; /* Blanco */
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .about-us p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

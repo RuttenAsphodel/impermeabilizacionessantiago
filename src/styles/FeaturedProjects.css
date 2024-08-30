@@ -1,0 +1,21 @@
+/* FeaturedProjects.css */
+
+.featured-projects {
+    background-color: #ffffff; /* Blanco */
+    color: #333;
+    text-align: center;
+  }
+  
+  .featured-projects h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .featured-projects p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  
+  

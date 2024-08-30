@@ -1,0 +1,18 @@
+/* Brands.css */
+
+.brands {
+    background-color: #f0f0f0; /* Gris claro */
+    text-align: center;
+  }
+  
+  .brands h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .brands p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
