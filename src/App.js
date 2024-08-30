@@ -27,8 +27,6 @@ function App() {
       <Routes>
         {/* Tus otras rutas aquí */}
         <Route path="/servicios" element={<Servicios />} />
-        <Route path="/nosotros" element={<Servicios />} />
-        <Route path="/contacto" element={<Servicios />} />
       </Routes>
     </BrowserRouter>
       {/* <HeroSection />

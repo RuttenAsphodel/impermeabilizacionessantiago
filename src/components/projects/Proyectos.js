@@ -6,9 +6,9 @@ const ImageCard = ({ imageUrl, title, description, worktype, location, buttonTex
       <img className="w-full h-80 object-content" src={imageUrl} alt={title} />
       <div className="px-6 py-6 flex-grow">
         <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-200 text-md text-justify">{description}</p>
-        <p className="text-gray-200 text-md text-justify">{worktype}</p>
-        <p className="text-gray-200 text-md text-justify">{location}</p>
+        <p className="text-gray-200 text-md text-left">{description}</p>
+        <p className="text-gray-200 text-md text-left">{worktype}</p>
+        <p className="text-gray-200 text-md text-left">{location}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
         <button className="w-full bg-slate-600 text-white hover:bg-gray-200  hover:text-gray-900 font-bold py-2 px-4 rounded">
@@ -39,7 +39,7 @@ const Proyectos = () => {
       buttonText: "Info"
     },
     {
-      imageUrl: "../images/almapng.png",
+      imageUrl: "https://nrao.cl/wp-content/uploads/2020/11/alma-logo.png",
       title: "Proyecto Alma",
       description: "Proyecto de impermeabilizacion Observatorio Alma",
       location: "Atacama, III Región de Atacama",
@@ -48,7 +48,7 @@ const Proyectos = () => {
     },
     
     {
-      imageUrl: "../images/transoceanica-mini.png",
+      imageUrl: "https://images.adsttc.com/media/images/56fd/7332/e58e/ce7e/8500/0004/slideshow/12-_Attali.jpg?1459450655",
       title: "Edificio Transoceanica",
       description: "Proyecto de Impermeabilizacion Transoceanica",
       location: "Vitacura, Región Metropolitana",
