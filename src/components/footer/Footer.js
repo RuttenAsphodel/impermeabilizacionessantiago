@@ -8,10 +8,10 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Enlaces rápidos</h3>
             <ul className="text-gray-400">
-              <li className="mb-2"><a href="#1" className="hover:text-white transition-colors duration-300">Inicio</a></li>
-              <li className="mb-2"><a href="#2" className="hover:text-white transition-colors duration-300">Servicios</a></li>
-              <li className="mb-2"><a href="#3" className="hover:text-white transition-colors duration-300">Productos</a></li>
-              <li className="mb-2"><a href="#4" className="hover:text-white transition-colors duration-300">Contacto</a></li>
+              <li className="mb-2"><a href="#home" className="hover:text-white transition-colors duration-300">Inicio</a></li>
+              <li className="mb-2"><a href="#servicios" className="hover:text-white transition-colors duration-300">Servicios</a></li>
+              <li className="mb-2"><a href="#proyectos" className="hover:text-white transition-colors duration-300">Proyectos</a></li>
+              <li className="mb-2"><a href="#contacto" className="hover:text-white transition-colors duration-300">Contacto</a></li>
             </ul>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
@@ -19,7 +19,7 @@ const Footer = () => {
             <p className="text-gray-400">
               Email: info@impermeabilizacionessantiago.cl<br />
               Teléfono: (123) 456-7890<br />
-              Dirección: Las Torres Macul, Santiago de Chile
+              Dirección: Pasaje 8 4129 Villa Caupolican Las Torres, Macul, Santiago de Chile
             </p>
           </div>
           <div className="w-full md:w-1/4">

@@ -1,14 +1,14 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
- 
+import logoMarca from '../images/logo-impermeabilizacion.png' 
 
 const navigation = [
-  { name: 'Inicio', href: "#1", current: true },
+  { name: 'Inicio', href: "#home", current: true },
   { name: 'Nosotros', href: '#2', current: false },
   { name: 'Servicios', href: '#servicios', current: false },
   { name: 'Proyectos', href: '#proyectos', current: false },
   { name: 'Marcas', href: '#5', current: false },
-  { name: 'Contacto', href: '#6', current: false },
+  { name: 'Contacto', href: '#contacto', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-blue-950">
+    <Disclosure as="nav" className="bg-blue-950" id='home'>
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -33,8 +33,8 @@ export default function Navbar() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
+                src={logoMarca}
+                className="h-10 w-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
