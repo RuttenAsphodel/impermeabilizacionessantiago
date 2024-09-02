@@ -3,8 +3,8 @@ import React from 'react';
 const ImageCard = ({ imageUrl, title, description, worktype, location, buttonText }) => {
   return (
     <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-blue-950 text-white">
-      <img className="w-full h-80 object-content" src={imageUrl} alt={title} />
-      <div className="px-6 py-10 flex-grow">
+      <img className="w-full h-80 object-content fluid" src={imageUrl} alt={title} />
+      <div className="px-6 py-6 flex-grow">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-300 font-bold text-xl text-left">Descripcion:</p>        
         <p className="text-gray-200 p-2 text-md text-left">{description}</p>

@@ -63,15 +63,32 @@ const Contacto = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div>
           <label htmlFor="region" className="block text-sm font-medium text-gray-700">Región</label>
-          <input
-            type="text"
+          <select
             id="region"
             name="region"
             value={formData.region}
             onChange={handleChange}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-            placeholder="Región"
-          />
+          >
+            <option value=""  disabled={true}>Seleccione una región</option>
+            <option value="arica-parinacota">Arica y Parinacota</option>
+            <option value="tarapaca">Tarapacá</option>
+            <option value="antofagasta">Antofagasta</option>
+            <option value="atacama">Atacama</option>
+            <option value="coquimbo">Coquimbo</option>
+            <option value="valparaiso">Valparaíso</option>
+            <option value="metropolitana">Región Metropolitana de Santiago</option>
+            <option value="ohiggins">Libertador General Bernardo O'Higgins</option>
+            <option value="maule">Maule</option>
+            <option value="nuble">Ñuble</option>
+            <option value="biobio">Biobío</option>
+            <option value="araucania">La Araucanía</option>
+            <option value="rios">Los Ríos</option>
+            <option value="lagos">Los Lagos</option>
+            <option value="aysen">Aysén del General Carlos Ibáñez del Campo</option>
+            <option value="magallanes">Magallanes y de la Antártica Chilena</option>
+            {/* Agrega aquí las opciones necesarias */}
+          </select>
         </div>
         <div>
           <label htmlFor="ciudad" className="block text-sm font-medium text-gray-700">Ciudad/Comuna</label>
