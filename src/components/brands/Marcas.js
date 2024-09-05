@@ -1,49 +1,57 @@
 import React from 'react';
+import LogoMarcaAlkoat from '../images/marcas/alkoat.png'
+import LogoMarcaAlva from '../images/marcas/arva.png'
+import LogoMarcaFester from '../images/marcas/fester.png'
+import LogoMarcaSika from '../images/marcas/sika.png'
 
-const ImageCard = ({ imageUrl, marca }) => {
-  return (
-    <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-gray-100 text-blue-900">
-      <img className="w-full h-40 object-content" src={imageUrl} alt={marca} />
-      <div className="px-4 py-10 flex-grow">
-        <div className="font-bold text-xl text-center mb-2">{marca}</div>
-        </div>
-      
-    </div>
-  );
-};
-
-const Marcas = () => {
-  const cards = [
-    {
-      imageUrl: "https://http2.mlstatic.com/D_NQ_NP_942275-MLM25918648783_082017-O.webp",
-      marca: "Alkoat",
-
-    },
-    {
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt76NIDPaSdLm1TsivItSa1wO3BsJrWjfJWA&s",
-      marca: "Arva",
-    },
-    
-    {
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzcnyPDGSLOmKj_7IUjMyVdDlVggbyggU7w&s",
-      marca: "Fester",
-    },
-    {
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjX6D99sbQRftI2KUnQs-GyZGiq6jtlerMqg&s",
-      marca: "Sika",
-    },
-
-  ];
+function Marcas(){
 
   return (
-    <div className="container mx-auto px-2 py-2" id='proyectos'>
-      <h2 className="text-3xl font-bold mb-6 text-center">Marcas Asociadas</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {cards.map((card, index) => (
-          <ImageCard key={index} {...card} />
-        ))}
-      </div>
-    </div>
+  <div className="bg-background py-16 px-6 max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center">Marcas que Respaldan Nuestro Trabajo</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div className="bg-muted rounded-md p-6 flex items-center justify-center">
+                <img
+                  src={ LogoMarcaAlkoat}
+                  alt="Marca 1"
+                  width={120}
+                  height={60}
+                  className="rounded-t-md object-cover w-full h-56"
+                  style={{ aspectRatio: "120/60", objectFit: "contain" }}
+                />
+              </div>
+              <div className="bg-muted rounded-md p-6 flex items-center justify-center">
+                <img
+                  src={ LogoMarcaAlva }
+                  alt="Marca 2"
+                  width={120}
+                  height={60}
+                  className="rounded-t-md object-cover w-full h-56"
+                  style={{ aspectRatio: "120/60", objectFit: "contain" }}
+                />
+              </div>
+              <div className="bg-muted rounded-md p-6 flex items-center justify-center">
+                <img
+                  src={ LogoMarcaFester }
+                  alt="Marca 3"
+                  width={120}
+                  height={60}
+                  className="rounded-t-md object-cover w-full h-56"
+                  style={{ aspectRatio: "120/60", objectFit: "contain" }}
+                />
+              </div>
+              <div className="bg-muted rounded-md p-6 flex items-center justify-center">
+                <img
+                  src={LogoMarcaSika}
+                  alt="Marca 4"
+                  width={120}
+                  height={60}
+                  className="rounded-t-md object-cover w-full h-56"
+                  style={{ aspectRatio: "120/60", objectFit: "contain" }}
+                />
+              </div>
+            </div>
+          </div>
   );
 };
 

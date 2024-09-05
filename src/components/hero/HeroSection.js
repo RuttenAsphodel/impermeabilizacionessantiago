@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-base tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Bienvenido a</span>{' '}
-                <span className="block text-yellow-600 xl:inline">Impermeabilizaciones Santiago </span> {''}
+                <span className="block text-gray-400 xl:inline">Impermeabilizaciones Santiago </span> {''}
                 
               </h1>
               <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">

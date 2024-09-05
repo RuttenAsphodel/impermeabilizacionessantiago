@@ -9,11 +9,16 @@ import Proyectos from './components/projects/Proyectos';
 import Marcas from './components/brands/Marcas';
 import Contacto from './components/contact/Contacto';
 import Footer from './components/footer/Footer';
+import Whatsapp from './components/contact/FloatingWhatsApp';
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar position='fixed' />
+      <Whatsapp 
+        phoneNumber="56989376647" // Reemplaza con el número de WhatsApp
+        message="Hola! Estoy interesado en sus servicios." 
+      />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/nosotros" element={<Nosotros />} />

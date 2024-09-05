@@ -3,11 +3,11 @@ import Marcas from '../brands/Marcas';
 
 const ImageCard = ({ imageUrl, title, description, buttonText }) => {
   return (
-    <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-blue-950 text-white">
-      <img className="w-full h-48 object-cover fluid" src={imageUrl} alt={title} />
-      <div className="px-6 py-4 flex-grow">
+    <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-white text-gray-800">
+      <img className="w-full h-56 object-cover" src={imageUrl} alt={title} />
+      <div className="px-4 py-4 flex-grow">
         <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-200 text-md text-justify">{description}</p>
+        <p className="text-gray-800 text-md text-justify">{description}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
         <button className="w-full bg-slate-600 text-white hover:bg-gray-200  hover:text-gray-900 font-bold py-2 px-4 rounded">

@@ -2,16 +2,16 @@ import React from 'react';
 
 const ImageCard = ({ imageUrl, title, description, worktype, location, buttonText }) => {
   return (
-    <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-blue-950 text-white">
-      <img className="w-full h-80 object-content fluid" src={imageUrl} alt={title} />
-      <div className="px-6 py-6 flex-grow">
+    <div className="flex flex-col h-full rounded overflow-hidden shadow-lg bg-white text-gray-800">
+      <img className="bg-white rounded-t-md w-full h-56" src={imageUrl} alt={title} style={{ aspectRatio: "600/400", objectFit: "contain"}}/>
+      <div className="px-6 py-4 flex-grow">
         <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-300 font-bold text-xl text-left">Descripcion:</p>        
-        <p className="text-gray-200 p-2 text-md text-left">{description}</p>
-        <p className="text-gray-300 font-bold text-xl text-left">Servicio realizado:</p>
-        <p className="text-gray-200 p-2 text-md text-left">{worktype}</p>
-        <p className="text-gray-300 font-bold text-xl text-left">Ubicación:</p>
-        <p className="text-gray-200 p-2 text-md text-left">{location}</p>
+        <p className="text-gray-800 font-bold text-md text-left">Descripcion:</p>        
+        <p className="text-gray-800 p-2 text-md text-left">{description}</p>
+        <p className="text-gray-800 font-bold text-md text-left">Servicio realizado:</p>
+        <p className="text-gray-800 p-2 text-md text-left">{worktype}</p>
+        <p className="text-gray-800 font-bold text-md text-left">Ubicación:</p>
+        <p className="text-gray-800 p-2 text-md text-left">{location}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
         <button className="w-full bg-slate-600 text-white hover:bg-gray-200  hover:text-gray-900 font-bold py-2 px-4 rounded">
@@ -42,7 +42,7 @@ const Proyectos = () => {
       buttonText: "Info"
     },
     {
-      imageUrl: "https://nrao.cl/wp-content/uploads/2020/11/alma-logo.png",
+      imageUrl: "../images/almapng.png",
       title: "Proyecto Alma",
       description: "Proyecto de impermeabilizacion Observatorio Alma",
       location: "Atacama, III Región de Atacama",
