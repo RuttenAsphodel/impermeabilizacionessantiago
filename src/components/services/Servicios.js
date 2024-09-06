@@ -22,20 +22,20 @@ const Servicios = () => {
   const cards = [
     {
       imageUrl: "../images/Foto Inyeccion.jpg",
-      title: "Servicio Inyección",
-      description: "Nuestro servicio especializado de inyección está diseñado para sellar e impermeabilizar eficazmente su propiedad, previniendo filtraciones y daños por agua. Nuestro equipo de expertos utiliza técnicas avanzadas y materiales de alta calidad para garantizar una protección duradera.",
+      title: "SERVICIO DE INYECCIONES",
+      description: "Nuestro servicio de inyección esta diseñado para reparar y sellar, filtraciones, en el Hormigon con resinas Flexibles  para la  eliminación de vías de agua de alta y baja presión, con materiales acuarreactivos qué reaccionan y encapsulan el agua una vez entre en contacto con esta.",
       buttonText: "Cotizar"
     },
     {
       imageUrl: "../images/PVC Cubierta casa.jpg",
-      title: "Impermeabilización de Techos",
-      description: "Proteja su techo de los daños causados por el agua con nuestros servicios profesionales de impermeabilización. Utilizamos las últimas técnicas y materiales para garantizar que su techo esté sellado y protegido contra los elementos.",
+      title: "IMPERMEABILIZACION  DE CUBIERTAS",
+      description: "Proteja sus edificaciones con Sistemas de Impermeabilizacion, en edificio, casas o obras civiles con Poliuretanos, Metacrilato, Cementicios Flexibles, Geoceldas drenajes, Láminas de PVC, Pinturas Acrílicas, Sistemas de Bentonitas, Dren con Geotextil abarcando una amplia gama de edificaciones.",
       buttonText: "Cotizar"
     },
     {
       imageUrl: "../images/estacionamiento icaad 1.jpg",
-      title: "Impermeabilización Subterranea",
-      description: "Prevenga la entrada de agua y la acumulación de humedad en su sótano con nuestras soluciones integrales de impermeabilización. Nuestro equipo evaluará su sótano y le proporcionará la mejor estrategia para mantener su propiedad seca y protegida.",
+      title: "IMPERMEABILIZACIONES EN MUROS SUBTERRÁNEO CONTRATERRENO O BAJO COTA CERO",
+      description: "Edificios , Estacionamientos, Centros comerciales obras de mayor envergadura como Hospitales, etc. Con diferentes opciones, Bentonitas auto reparables, cordones de bentonita, HDPE para redirigir el agua, Cementicios Cristalizantes, Poliuretanos bajo pavimentos.",
       buttonText: "Cotizar"
     },
     

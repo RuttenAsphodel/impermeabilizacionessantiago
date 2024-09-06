@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nosotros = () => {
   return (
-    <div className="min-h-screen bg-gray-100" id='nosotros'>
+    <div className="min-h-screen bg-gray-100 text-justify" id='nosotros' >
       <main className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-8">Quiénes Somos</h1>
@@ -10,26 +10,30 @@ const Nosotros = () => {
           <section className="bg-white shadow-lg rounded-lg p-8 mb-10">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Impermeabilizaciones Santiago</h2>
             <p className="text-lg text-gray-600 mb-6">
-              Somos una empresa líder en soluciones de impermeabilización en Santiago y sus alrededores. Con más de una década de experiencia, nos hemos especializado en proporcionar servicios de alta calidad para proteger su hogar o negocio contra los daños causados por el agua.
+            Empresa líder en soluciones de impermeabilizacion,  dando respuesta a cada uno de los problemas ocasionados por el agua, disminuyendo las post ventas, con servicio de calidad protegiendo la integridad de las estructuras en el corto y largo plazo.
+
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Nuestro equipo de profesionales altamente capacitados está comprometido con la excelencia en cada proyecto, utilizando las técnicas más avanzadas y materiales de primera calidad para garantizar resultados duraderos.
-            </p>
+            Dándole al cliente  la tranquilidad  a las problemáticas de filtraciones de agua, asegurando  el buen funcionamiento de las impermeabilizaciones a través del tiempo.</p>
           </section>
 
           <section className="bg-white shadow-lg rounded-lg p-8 mb-10">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Nuestra Misión</h2>
             <p className="text-lg text-gray-600 mb-6">
-              Nuestra misión es proporcionar soluciones de impermeabilización confiables y duraderas, protegiendo las propiedades de nuestros clientes y mejorando su calidad de vida. Nos esforzamos por ofrecer un servicio excepcional, asesoramiento experto y resultados que superen las expectativas.
+            Proporcionar Soluciones en el corto y largo plazo que puedan garantizar la durabilidad e integridad de las estructuras.
+            </p>
+            <p className="text-lg text-gray-600 mb-6">
+            Ofrecemos un servicio integral acompañando en cada etapa de su proyecto,  con asesoramiento experto.
             </p>
           </section>
 
           <section className="bg-white shadow-lg rounded-lg p-8 mb-10">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Nuestros Servicios</h2>
             <ul className="list-disc list-inside text-lg text-gray-600 mb-6">
-              <li>Impermeabilización de techos y terrazas</li>
-              <li>Servicio de Inyección</li>
+              <li>Impermeabilización de Cubiertas</li>
+              <li>Servicio de Inyección en griestas y muros subterraneos</li>
               <li>Impermeabilización de estructuras subterráneas</li>
+              <li>Impermeabilización con poliuretanos</li>
               <li>Asesoría y consultoría en impermeabilización</li>
             </ul>
           </section>

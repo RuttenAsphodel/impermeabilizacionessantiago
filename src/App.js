@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Navbar position='fixed' />
       <Whatsapp 
-        phoneNumber="56989376647" // Reemplaza con el número de WhatsApp
+        phoneNumber="56950744995" // Reemplaza con el número de WhatsApp
         message="Hola! Estoy interesado en sus servicios." 
       />
       <Routes>
