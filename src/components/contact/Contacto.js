@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contacto = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,9 @@ const Contacto = () => {
     descripcion: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevState => ({
@@ -20,11 +24,41 @@ const Contacto = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Formulario enviado:', formData);
-    // Aquí puedes agregar la lógica para enviar los datos del formulario
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      // Replace these with your actual EmailJS service ID, template ID, and user ID
+      const result = await emailjs.send(
+        'service_4289p5v',
+        'template_3lbivid',
+        formData,
+        'DJYkf2kWxptD2qDX3'
+      );
+
+      console.log('Email successfully sent!', result);
+      setSubmitStatus('success');
+      setFormData({
+        nombre: '',
+        email: '',
+        region: '',
+        ciudad: '',
+        telefono: '',
+        tipoTrabajo: '',
+        superficie: '',
+        descripcion: ''
+      });
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+        // Aquí puedes agregar la lógica para enviar los datos del formulario
+  
 
   return (
     <form onSubmit={handleSubmit} className="max-w-6xl mx-auto p-6">
@@ -162,10 +196,26 @@ const Contacto = () => {
       </div>
 
       <div className="mt-6">
-        <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          Enviar
-        </button>
+        <button 
+          type="submit" 
+          className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          disabled={isSubmitting}
+          >
+            {isSubmitting ? "Enviando..'" : "Enviar"}
+          </button>
       </div>
+
+      {submitStatus === 'success' && (
+        <div className="mt-4 text-green-600">
+          ¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.
+        </div>
+      )}
+
+      {submitStatus === 'error' && (
+        <div className="mt-4 text-red-600">
+          Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.
+        </div>
+      )}
     </form>
   );
 };
