@@ -105,22 +105,22 @@ const Contacto = () => {
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           >
             <option value=""  disabled={true}>Seleccione una región</option>
-            <option value="arica-parinacota">Arica y Parinacota</option>
-            <option value="tarapaca">Tarapacá</option>
-            <option value="antofagasta">Antofagasta</option>
-            <option value="atacama">Atacama</option>
-            <option value="coquimbo">Coquimbo</option>
-            <option value="valparaiso">Valparaíso</option>
-            <option value="metropolitana">Región Metropolitana de Santiago</option>
-            <option value="ohiggins">Libertador General Bernardo O'Higgins</option>
-            <option value="maule">Maule</option>
-            <option value="nuble">Ñuble</option>
-            <option value="biobio">Biobío</option>
-            <option value="araucania">La Araucanía</option>
-            <option value="rios">Los Ríos</option>
-            <option value="lagos">Los Lagos</option>
-            <option value="aysen">Aysén del General Carlos Ibáñez del Campo</option>
-            <option value="magallanes">Magallanes y de la Antártica Chilena</option>
+            <option value="Arica-Parinacota">Arica y Parinacota</option>
+            <option value="Tarapaca">Tarapacá</option>
+            <option value="Antofagasta">Antofagasta</option>
+            <option value="Atacama">Atacama</option>
+            <option value="Coquimbo">Coquimbo</option>
+            <option value="Valparaiso">Valparaíso</option>
+            <option value="Metropolitana">Región Metropolitana de Santiago</option>
+            <option value="O'higgins">Libertador General Bernardo O'Higgins</option>
+            <option value="Maule">Maule</option>
+            <option value="Ñuble">Ñuble</option>
+            <option value="BioBio">Biobío</option>
+            <option value="Araucania">La Araucanía</option>
+            <option value="Los Rios">Los Ríos</option>
+            <option value="Los Lagos">Los Lagos</option>
+            <option value="Aysen">Aysén del General Carlos Ibáñez del Campo</option>
+            <option value="Magallanes">Magallanes y de la Antártica Chilena</option>
             {/* Agrega aquí las opciones necesarias */}
           </select>
         </div>
