@@ -13,8 +13,8 @@ const HeroSection = () => {
                 <span className="block text-gray-400 xl:inline">Impermeabilizaciones Santiago </span> {''}
                 
               </h1>
-              <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Protección Total Contra la Humedad
+              <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Mas de 1.500.000 de metros cuadrados instalados  
               </p>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               <strong>Especialistas en Impermeabilización y Servicio de Inyección</strong>

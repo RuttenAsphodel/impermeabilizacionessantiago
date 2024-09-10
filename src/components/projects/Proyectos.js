@@ -52,12 +52,13 @@ const Proyectos = () => {
     
     {
       imageUrl: "https://images.adsttc.com/media/images/56fd/7332/e58e/ce7e/8500/0004/slideshow/12-_Attali.jpg?1459450655",
-      title: "Edificio Transoceanica",
-      description: "Proyecto de Impermeabilizacion Transoceanica",
+      title: "Edificio Transoceanica 2",
+      description: "Proyecto de Impermeabilizacion Transoceanica 2",
       location: "Vitacura, Región Metropolitana",
-      worktype: "Impermeabilizacion Subterranea",
+      worktype: "Impermeabilizacion Poliuretano 100%",
       buttonText: "Info"    
     },
+    // Agregar Hospitales 
     
   ];
 
