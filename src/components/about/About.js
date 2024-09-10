@@ -20,7 +20,7 @@ const Nosotros = () => {
           <section className="bg-white shadow-lg rounded-lg p-8 mb-10">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Nuestra Misión</h2>
             <p className="text-lg text-gray-600 mb-6">
-            Proporcionar Soluciones que puedan garantizar la durabilidad e integridad de las estructuras.
+            Proporcionar soluciones que puedan garantizar la durabilidad e integridad de las estructuras.
             </p>
             <p className="text-lg text-gray-600 mb-6">
             Ofrecemos un servicio integral acompañando en cada etapa de su proyecto,  con asesoramiento experto.
@@ -33,8 +33,9 @@ const Nosotros = () => {
               <li>Impermeabilización de Cubiertas</li>
               <li>Servicio de Inyección en grietas y muros subterraneos</li>
               <li>Impermeabilización con cementicios flexibles, estanques de agua</li>
-              <li>Impermeabilización zonas humedas y bajopavimento</li>
+              <li>Impermeabilización zonas humedas y bajo pavimento</li>
               <li>Impermeabilización con poliuretanos, rampas y helipuertos</li>
+              <li>Impermeabilización con poliuretanos, terrazas y jardineras</li>
               <li>Impermeabilización con membranas de bentonita</li>
               <li>Impermeabilización PVC</li>
               <li>Impermeabilización HDPE y Green Roof</li>

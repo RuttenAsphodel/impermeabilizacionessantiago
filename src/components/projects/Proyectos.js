@@ -27,26 +27,26 @@ const Proyectos = () => {
     {
       imageUrl: "../images/salvador.jpg",
       title: "Hospital del Salvador",
-      description: "Proyecto de impermeabilizacion en Hospital del Salvador",
+      description: "Proyecto de impermeabilización bajo cota cero",
       location: "Santiago, Región Metropolitana",
-      worktype: "Impermeabilizacion Subterranea",
+      worktype: "Muro y Subterraneo, Membrana de Bentonita y Dren",
       buttonText: "Info"
 
     },
     {
       imageUrl: "../images/queilen.jpg",
       title: "Hospital de Queilen",
-      description: "Proyecto de aplicacion de Inyeccion en Hospital de Queilen, Isla de Chiloé",
+      description: "Proyecto impermeabilización bajo cota cero",
       location: "Chiloé, X Región de Los Lagos",
-      worktype: "Servicio de Inyección",
+      worktype: "Proyecto de Impermeabilización, Membrana de PVC",
       buttonText: "Info"
     },
     {
-      imageUrl: "../images/almapng.png",
-      title: "Proyecto Alma",
-      description: "Proyecto de impermeabilizacion Observatorio Alma",
-      location: "Atacama, III Región de Atacama",
-      worktype: "Impermeabilizacion de Techo",
+      imageUrl: "https://hcv.cl/HCV2/wp-content/uploads/2020/06/LOGO-NUEVO-HOSPITAL2.png",
+      title: "Hospital Claudio Vicuña, San Antonio",
+      description: "Impermeabilización Poliuretano",
+      location: "San Antonio, Región de Valparaiso",
+      worktype: "Impermeabilizacion Poliuretano",
       buttonText: "Info"    
     },
     

@@ -27,13 +27,13 @@ const Servicios = () => {
       buttonText: "Cotizar"
     },
     {
-      imageUrl: "../images/PVC Cubierta casa.jpg",
+      imageUrl: "../images/estacionamiento 2.jpg", // cambiar imagen altodelparque
       title: "IMPERMEABILIZACION  DE CUBIERTAS",
-      description: "Proteja sus edificaciones con Sistemas de Impermeabilizacion, en edificio, casas o obras civiles con Poliuretanos, Metacrilato, Cementicios Flexibles, Geoceldas drenajes, Láminas de PVC, Pinturas Acrílicas, Sistemas de Bentonitas, Dren con Geotextil abarcando una amplia gama de edificaciones.",
+      description: "Proteja sus edificaciones con Sistemas de Impermeabilizacion, en edificios, casas o obras civiles con Poliuretanos, Metacrilato, Cementicios Flexibles, Geoceldas drenajes, Láminas de PVC, Pinturas Acrílicas, Sistemas de Bentonitas, Dren con Geotextil abarcando una amplia gama de edificaciones.",
       buttonText: "Cotizar"
     },
     {
-      imageUrl: "../images/estacionamiento icaad 1.jpg",
+      imageUrl: "../images/bentonita.jpg",
       title: "IMPERMEABILIZACIONES EN MUROS SUBTERRÁNEO CONTRATERRENO O BAJO COTA CERO",
       description: "Edificios , Estacionamientos, Centros comerciales obras de mayor envergadura como Hospitales, etc. Con diferentes opciones, Bentonitas auto reparables, cordones de bentonita, HDPE para redirigir el agua, Cementicios Cristalizantes, Poliuretanos bajo pavimentos.",
       buttonText: "Cotizar"
