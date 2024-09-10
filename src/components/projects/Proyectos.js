@@ -44,7 +44,7 @@ const Proyectos = () => {
     {
       imageUrl: "https://hcv.cl/HCV2/wp-content/uploads/2020/06/LOGO-NUEVO-HOSPITAL2.png",
       title: "Hospital Claudio Vicuña, San Antonio",
-      description: "Impermeabilización Poliuretano",
+      description: "Estacionamientos, Cubiertas, Estanques de Agua",
       location: "San Antonio, Región de Valparaiso",
       worktype: "Impermeabilizacion Poliuretano",
       buttonText: "Info"    
