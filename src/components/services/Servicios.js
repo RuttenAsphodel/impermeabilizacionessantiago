@@ -27,7 +27,7 @@ const Servicios = () => {
       buttonText: "Cotizar"
     },
     {
-      imageUrl: "../images/estacionamiento 2.jpg", // cambiar imagen altodelparque
+      imageUrl: "../images/estacionamiento 2.jpg", // reemplaza imagen por la de altodelparque
       title: "IMPERMEABILIZACION  DE CUBIERTAS",
       description: "Proteja sus edificaciones con Sistemas de Impermeabilizacion, en edificios, casas o obras civiles con Poliuretanos, Metacrilato, Cementicios Flexibles, Geoceldas drenajes, Láminas de PVC, Pinturas Acrílicas, Sistemas de Bentonitas, Dren con Geotextil abarcando una amplia gama de edificaciones.",
       buttonText: "Cotizar"
