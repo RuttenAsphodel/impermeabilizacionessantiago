@@ -32,7 +32,7 @@ const Contacto = () => {
     try {
       // Replace these with your actual EmailJS service ID, template ID, and user ID
       const result = await emailjs.send(
-        'service_4289p5v',
+        'service_54oj9rj',
         'template_3lbivid',
         formData,
         'DJYkf2kWxptD2qDX3'

@@ -66,8 +66,11 @@ const Nosotros = () => {
           </section>
         </div>
       </main>
+      <div>
+      </div>
     </div>
   );
 };
+
 
 export default Nosotros;
