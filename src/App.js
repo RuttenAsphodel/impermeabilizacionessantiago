@@ -10,15 +10,20 @@ import Marcas from './components/brands/Marcas';
 import Contacto from './components/contact/Contacto';
 import Footer from './components/footer/Footer';
 import Whatsapp from './components/contact/FloatingWhatsApp';
+import LinkedIn from './components/contact/LinkedIn';
+
 
 function App() {
   return (
     <Router>
       <Navbar position='fixed' />
+      <LinkedIn username="luis-espricaute-35458a55"/>
       <Whatsapp 
         phoneNumber="56950744995" // Reemplaza con el número de WhatsApp
         message="Hola! Estoy interesado en sus servicios." 
       />
+      
+      
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/nosotros" element={<Nosotros />} />
