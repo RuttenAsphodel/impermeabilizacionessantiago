@@ -9,7 +9,7 @@ const FloatingWhatsAppButton = ({ phoneNumber, message }) => {
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-24 right-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center justify-center transition-transform transform hover:scale-105"
+      className="fixed bottom-16 right-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center justify-center transition-transform transform hover:scale-105"
     >
       <svg
         className="w-6 h-6"
