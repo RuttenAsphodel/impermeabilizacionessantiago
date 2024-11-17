@@ -21,19 +21,19 @@ const ImageCard = ({ imageUrl, title, description, buttonText }) => {
 const Servicios = () => {
   const cards = [
     {
-      imageUrl: "../images/Foto Inyeccion.jpg",
+      imageUrl: "https://i.ibb.co/DVGCrc7/inyeccion.jpg",
       title: "SERVICIO DE INYECCIONES",
       description: "Nuestro servicio de inyección esta diseñado para reparar y sellar, filtraciones, en el Hormigon con resinas Flexibles  para la  eliminación de vías de agua de alta y baja presión, con materiales acuarreactivos qué reaccionan y encapsulan el agua una vez entre en contacto con esta.",
       buttonText: "Cotizar"
     },
     {
-      imageUrl: "../images/estacionamiento 2.jpg", // reemplaza imagen por la de altodelparque
+      imageUrl: "https://i.ibb.co/M59Ngqc/cubiertas.jpg", // reemplaza imagen por la de altodelparque
       title: "IMPERMEABILIZACION  DE CUBIERTAS",
       description: "Proteja sus edificaciones con Sistemas de Impermeabilizacion, en edificios, casas o obras civiles con Poliuretanos, Metacrilato, Cementicios Flexibles, Geoceldas drenajes, Láminas de PVC, Pinturas Acrílicas, Sistemas de Bentonitas, Dren con Geotextil abarcando una amplia gama de edificaciones.",
       buttonText: "Cotizar"
     },
     {
-      imageUrl: "../images/bentonita.jpg",
+      imageUrl: "https://i.ibb.co/b72Wj03/bentonita.jpg",
       title: "IMPERMEABILIZACIONES EN MUROS SUBTERRÁNEO CONTRATERRENO O BAJO COTA CERO",
       description: "Edificios , Estacionamientos, Centros comerciales obras de mayor envergadura como Hospitales, etc. Con diferentes opciones, Bentonitas auto reparables, cordones de bentonita, HDPE para redirigir el agua, Cementicios Cristalizantes, Poliuretanos bajo pavimentos.",
       buttonText: "Cotizar"

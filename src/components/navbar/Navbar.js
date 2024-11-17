@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logoMarca from '../images/logo-impermeabilizacion.png' 
+import logoMarca from '../images/inicio/logo-lev.png' 
 import { Link } from 'react-router-dom'; // Importa Link de React Router
 
 

@@ -108,9 +108,14 @@ const Proyectos = () => {
   const cards = [
     {
       images: [
-        "../images/salvador.jpg",
-        "../images/Bentonita Hospital Salvador.jpg",
-        "../images/Bentonita Hospital Salvador 1.jpg"
+        "https://i.ibb.co/zV2cXmX/salvador.jpg",
+        "https://i.ibb.co/GVKxJhP/hospitalsalvador1.jpg",
+        "https://i.ibb.co/H7970Vf/hospitalsalvador2.jpg",
+        "https://i.ibb.co/JH8cPVd/hospitalsalvador3.jpg",
+        "https://i.ibb.co/v1grDDJ/hospitalsalvador4.jpg",
+        "https://i.ibb.co/jTTMYK7/hospitalsalvador5.jpg",
+        "https://i.ibb.co/yBXgwV4/hospitalsalvador6.jpg"
+        
       ],
       title: "Hospital del Salvador",
       description: "Proyecto de impermeabilización bajo cota cero",
@@ -119,9 +124,10 @@ const Proyectos = () => {
     },
     {
       images: [
-        "../images/queilen.jpg",
-        "../images/Estacionamiento Edificio.jpg",
-        "../images/PVC Hospital Queilen.jpg"
+        "https://i.ibb.co/tKmRfn5/queilen.png",
+        "https://i.ibb.co/9bFV6td/Estacionamiento-Edificio.jpg",
+        "https://i.ibb.co/8z6pBxK/PVC-Hospital-Queilen.jpg",
+        "https://i.ibb.co/RbbYCWJ/PVC-Cubierta-edificio.jpg"
       ],
       title: "Hospital de Queilen",
       description: "Proyecto impermeabilización bajo cota cero",
@@ -130,9 +136,13 @@ const Proyectos = () => {
     },
     {
       images: [
-        "https://hcv.cl/HCV2/wp-content/uploads/2020/06/LOGO-NUEVO-HOSPITAL2.png",
-        "../images/IMG-20190205-WA0021.jpg",
-        "../images/IMG-20201114-WA0032.jpg"
+        "https://i.ibb.co/QmPhDmB/hospitalsanantonio.png",
+        "https://i.ibb.co/mTBnt8c/sanantonio1.jpg",
+        "https://i.ibb.co/9yzhTDt/sanantonio2.jpg",
+        "https://i.ibb.co/125Tr5m/sanantonio3.jpg",
+        "https://i.ibb.co/M22jZdX/sanantonio4.jpg",
+        "https://i.ibb.co/dcmpYVD/sanantonio5.jpg",
+        "https://i.ibb.co/z85QHGH/sanantonio6.jpg"
       ],
       title: "Hospital Claudio Vicuña, San Antonio",
       description: "Estacionamientos, Cubiertas, Estanques de Agua",
@@ -141,9 +151,9 @@ const Proyectos = () => {
     },
     {
       images: [
-        "https://images.adsttc.com/media/images/56fd/7332/e58e/ce7e/8500/0004/slideshow/12-_Attali.jpg?1459450655",
-        "../images/TRANSOCEANICA 2 1ER PISO.jpg",
-        "../images/IMG-20190206-WA0013 (1).jpg"
+        "https://i.ibb.co/5MvDvZb/transoceanica2.jpg",
+        "https://i.ibb.co/GCV4KXY/transoceanica1.jpg",
+        "https://i.ibb.co/865pZhn/transoceanica3.jpg"
       ],
       title: "Edificio Transoceanica 2",
       description: "Proyecto de Impermeabilizacion Transoceanica 2",

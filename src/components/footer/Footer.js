@@ -21,7 +21,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2">Contacto</h3>
             <p className="text-gray-400">
               Email: info@impermeabilizacionessantiago.cl<br />
-              Teléfono: (+56) 950744995 - (+56) 97748947<br />
+              Teléfono: (+56) 950744995 - (+56) 977748947<br />
               Dirección: Pasaje 8 4129 Villa Caupolican Las Torres, Macul, Santiago de Chile
             </p>
           </div>

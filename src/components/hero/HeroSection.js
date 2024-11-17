@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import imagenportada from '../images/inicio/portada.jpg'
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-base tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Bienvenido a</span>{' '}
-                <span className="block text-gray-400 xl:inline">Impermeabilizaciones Santiago </span> {''}
+                <span className="block text-gray-400 xl:inline">Impermeabilizaciones Luis Espricaute </span> {''}
                 
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -44,8 +45,8 @@ const HeroSection = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/1.8">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/estacionamiento 2.jpg"
-          alt=""
+          src={imagenportada}
+          alt="impermeabilizaciones santiago"
         />
       </div>
     </div>
