@@ -23,14 +23,14 @@ const ModalImageCarousel = ({ images, title, onClose }) => {
     // Fondo oscuro que cubre toda la pantalla
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       {/* Contenedor del modal */}
-      <div className="bg-white p-4 rounded-lg max-w-3xl w-full">
+      <div className="bg-white p-4 rounded-lg max-w-2xl w-full">
         <h2 className="text-2xl font-bold mb-4">{title}</h2>
         {/* Contenedor de la imagen y botones de navegación */}
         <div className="relative">
           <img
             src={images[currentImageIndex]}
             alt={`Imagen ${currentImageIndex + 1}`}
-            className="w-full h-auto"
+            className="w-full h-90"
           />
           {/* Botón para imagen anterior */}
           <button
@@ -124,8 +124,8 @@ const Proyectos = () => {
     },
     {
       images: [
-        "https://i.ibb.co/tKmRfn5/queilen.png",
-        "https://i.ibb.co/9bFV6td/Estacionamiento-Edificio.jpg",
+        "https://i.ibb.co/ctZqCnr/queilen.png",
+        "https://i.ibb.co/jr4KW2P/hospitalqueilen2.jpg",
         "https://i.ibb.co/8z6pBxK/PVC-Hospital-Queilen.jpg",
         "https://i.ibb.co/RbbYCWJ/PVC-Cubierta-edificio.jpg"
       ],
