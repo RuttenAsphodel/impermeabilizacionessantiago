@@ -8,7 +8,7 @@ const Nosotros = () => {
           <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-8">Quiénes Somos</h1>
           
           <section className="bg-white shadow-lg rounded-lg p-8 mb-10">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Impermeabilizaciones Santiago</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Impermeabilizaciones Luis Espricaute</h2>
             <p className="text-lg text-gray-600 mb-6">
             Empresa líder en soluciones de impermeabilizacion,  dando respuesta a cada uno de los problemas ocasionados por el agua, disminuyendo las post ventas, con servicio de calidad protegiendo la integridad de las estructuras en el corto y largo plazo.
 

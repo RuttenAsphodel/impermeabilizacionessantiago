@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Link } from 'react-router-dom'; // Importa Link de React Router
 
@@ -20,7 +18,7 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Contacto</h3>
             <p className="text-gray-400">
-              Email: info@impermeabilizacionessantiago.cl<br />
+              Email: info@impermeabilizacionesluisespricaute.cl<br />
               Teléfono: (+56) 950744995 - (+56) 977748947<br />
               Dirección: Pasaje 8 4129 Villa Caupolican Las Torres, Macul, Santiago de Chile
             </p>

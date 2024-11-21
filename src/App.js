@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <Navbar position='fixed' />
-      <LinkedIn username="luis-espricaute-35458a55"/>
+      <LinkedIn username="impermeabilizaciones-luis-espricaute/"/>
       <Whatsapp 
         phoneNumber="56950744995" // Reemplaza con el número de WhatsApp
         message="Hola! Estoy interesado en sus servicios." 
